@@ -1,0 +1,32 @@
+$Roboto: (
+        'Light': 300,
+        'Regular': 400,
+        'Medium': 500,
+        'Bold': 700
+);
+
+$Archangelsk: (
+        'Regular': 400,
+);
+
+
+@each $name, $weight in $Roboto {
+  @font-face {
+    font-family: 'Archangelsk';
+    src: url("../fonts/Roboto-#{$name}.ttf");
+    font-weight: $weight;
+  }
+}
+
+@each $name, $weight in $Archangelsk {
+  @font-face {
+    font-family: 'Archangelsk';
+    src: url("../fonts/Archangelsk.ttf");
+    font-weight: 400;
+  }
+}
+
+
+
+
+
