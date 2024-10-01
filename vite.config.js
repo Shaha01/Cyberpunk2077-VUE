@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/Cyberpunk2077-VUE/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
