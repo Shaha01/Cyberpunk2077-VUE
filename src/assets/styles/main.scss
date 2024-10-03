@@ -584,6 +584,46 @@ ul {
 }
 
 @media (max-width: 520px) {
+
+  .header {
+    &-nav {
+      flex-direction: column;
+
+      &__list {
+        margin-top: 15px;
+        gap: 20px;
+      }
+    }
+
+    &-block {
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0;
+
+      &__title {
+        max-width: 350px;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 36.63px;
+        text-align: center;
+
+      }
+
+      &__btn {
+        font-size: 25px;
+        padding: 5px 30px;
+        line-height: 40px;
+      }
+
+      &__img {
+        max-width: 430px;
+        bottom: -12px;
+        right: 0;
+      }
+
+    }
+  }
+
   .sell-content__title {
     flex-direction: column;
     align-items: flex-start;
@@ -630,7 +670,6 @@ ul {
 @media (max-width: 370px) {
   .header {
     &-nav {
-      flex-direction: column;
 
       &__list {
         margin-top: 15px;
@@ -639,9 +678,6 @@ ul {
     }
 
     &-block {
-      justify-content: flex-end;
-      align-items: center;
-      padding: 0;
 
       &__title {
         font-size: 30px;
