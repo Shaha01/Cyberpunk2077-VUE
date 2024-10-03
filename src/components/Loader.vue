@@ -2,7 +2,9 @@
   <div>
     <div v-if="loading" class="loader">
       <div class="loader-spinner"></div>
+      <p class="loader-progress">{{ progress }}%</p>
     </div>
+
   </div>
 </template>
 
@@ -10,19 +12,27 @@
 export default {
   data() {
     return {
-      loading: true
+      loading: true,
+      progress: 0
     };
   },
   mounted() {
-
-    window.addEventListener("load", () => {
-      this.loading = false;
-    });
+    const interval = setInterval(() => {
+      if (this.progress < 100) {
+        this.progress += 10;
+      } else {
+        clearInterval(interval);
+        this.loading = false;
+      }
+    }, 1000);
   }
 };
 </script>
 
 <style scoped>
+@import "@/assets/styles/fonts.scss";
+
+
 .loader {
   position: fixed;
   left: 0;
@@ -32,6 +42,7 @@ export default {
   background-color: #fff;
   z-index: 9999;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -43,6 +54,13 @@ export default {
   width: 120px;
   height: 120px;
   animation: spin 2s linear infinite;
+}
+
+.loader-progress {
+  font-family: Archangelsk;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 10px;
 }
 
 @keyframes spin {
