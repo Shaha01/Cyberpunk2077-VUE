@@ -16,10 +16,10 @@ export default {}
 
     <div class="about-images">
       <div class="about-images__left">
-        <img src="@/assets/images/main/about-left-top-img.svg" alt="svg" class="about-images__left-img">
-        <img src="@/assets/images/main/about-left-bottom-img.svg" alt="svg" class="about-images__left-img">
+        <img src="@/assets/images/main/about-left-top-img.svg" alt="svg" loading="lazy" decoding="async" class="about-images__left-img">
+        <img src="@/assets/images/main/about-left-bottom-img.svg" alt="svg" loading="lazy" decoding="async" class="about-images__left-img">
       </div>
-      <img src="@/assets/images/main/about-right-img.svg" alt="svg" class="about-images__img">
+      <img src="@/assets/images/main/about-right-img.svg" alt="svg" loading="lazy" decoding="async" class="about-images__img">
 
     </div>
   </div>

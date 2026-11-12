@@ -9,8 +9,8 @@ export default {}
 
     <div class="yellow-content container">
       <div class="yellow-content__left">
-        <img src="@/assets/images/main/yellow-monitor.svg" alt="svg" class="yellow-content__left-img">
-        <img src="@/assets/images/main/main-platform.svg" alt="svg" class="yellow-content__left-img">
+        <img src="@/assets/images/main/yellow-monitor.svg" alt="svg" loading="lazy" decoding="async" class="yellow-content__left-img">
+        <img src="@/assets/images/main/main-platform.svg" alt="svg" loading="lazy" decoding="async" class="yellow-content__left-img">
       </div>
 
       <div class="yellow-content__right">

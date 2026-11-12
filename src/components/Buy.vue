@@ -5,7 +5,7 @@ export default {}
 
 <template>
   <div class="buy">
-    <img src="@/assets/images/Buy/foto.svg" alt="svg" class="buy-img">
+    <img src="@/assets/images/Buy/foto.svg" alt="svg" loading="lazy" decoding="async" class="buy-img">
     <div class="buy-content container">
 
       <div class="buy-content__left">

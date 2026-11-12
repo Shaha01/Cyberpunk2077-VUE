@@ -49,7 +49,7 @@
 
         </div>
 
-        <img src="@/assets/images/main/game-konsol.svg" alt="svg" class="sell-content__box-images">
+        <img src="@/assets/images/main/game-konsol.svg" alt="svg" loading="lazy" decoding="async" class="sell-content__box-images">
 
       </div>
 

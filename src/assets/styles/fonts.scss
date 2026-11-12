@@ -12,17 +12,19 @@ $Archangelsk: (
 
 @each $name, $weight in $Roboto {
   @font-face {
-    font-family: 'Archangelsk';
-    src: url("../fonts/Roboto-#{$name}.ttf");
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/Roboto-#{$name}.ttf") format("truetype");
     font-weight: $weight;
+    font-display: swap;
   }
 }
 
 @each $name, $weight in $Archangelsk {
   @font-face {
     font-family: 'Archangelsk';
-    src: url("../fonts/Archangelsk.ttf");
+    src: url("../fonts/Archangelsk.ttf") format("truetype");
     font-weight: 400;
+    font-display: swap;
   }
 }
 
