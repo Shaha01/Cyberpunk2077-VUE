@@ -201,4 +201,15 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .logo{font-size:15px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
-.foot .made{font-size:14px;color:var(--mut)}.foot .made b{color:var(--y);font-weight:400;text-shadow:0 0 10px rgba(252,238,10,.5)}
+.foot__credit{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px;padding-top:22px;border-top:1px solid rgba(255,255,255,.08);color:var(--mut);font-size:11px;text-transform:uppercase}
+.credit{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid rgba(255,255,255,.14);border-radius:10px;background:#050507cc;color:inherit;transition:border-color .3s,box-shadow .3s}
+.credit__label{color:var(--mut)}
+.credit__name{font-family:var(--disp);font-weight:900;font-size:13px;letter-spacing:.01em;text-transform:none;color:var(--txt);transform:skew(-9deg)}
+.credit__stripes{display:inline-flex;gap:3px}
+.credit__stripes i{width:3px;height:13px;border-radius:1px;transform:skew(-20deg);transition:transform .45s cubic-bezier(.22,1,.36,1)}
+.credit__stripes i:nth-child(1){background:var(--m);box-shadow:0 0 6px var(--m)}
+.credit__stripes i:nth-child(2){background:var(--y)}
+.credit__stripes i:nth-child(3){background:var(--c)}
+.credit:hover{border-color:var(--y);box-shadow:0 0 20px -4px rgba(252,238,10,.6)}
+.credit:hover .credit__stripes i{transform:skew(-20deg) translate(3px) scaleY(1.15)}
+@media(max-width:600px){.foot__credit{justify-content:center;text-align:center}}

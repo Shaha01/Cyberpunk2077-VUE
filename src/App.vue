@@ -3,6 +3,7 @@ import { ref, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import { t, lang, setLang } from './i18n'
 
 const base = import.meta.env.BASE_URL
+const year = new Date().getFullYear()
 const img = (n) => `${base}img/${n}.jpg`
 
 const ids = ['lore', 'districts', 'chars', 'time', 'pl', 'buy']
@@ -264,7 +265,14 @@ onBeforeUnmount(() => {
     <div class="wrap foot__in">
       <a href="#" class="logo" @click.prevent="go('top')"><span>CYBER</span>PUNK<em>2077</em></a>
       <p class="mono">{{ t.foot }}</p>
-      <p class="made mono">Made by <b>Shakhriyor</b></p>
+    </div>
+    <div class="wrap foot__credit mono">
+      <a class="credit" href="https://shaha01.github.io/Shakhriyor/" target="_blank" rel="noopener">
+        <span class="credit__label">{{ t.credit }}</span>
+        <span class="credit__name">Abrorov Shahriyor</span>
+        <span class="credit__stripes" aria-hidden="true"><i></i><i></i><i></i></span>
+      </a>
+      <span>© {{ year }} SHA · Cyberpunk 2077</span>
     </div>
   </footer>
 

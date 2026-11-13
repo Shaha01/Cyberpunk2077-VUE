@@ -38,7 +38,8 @@ const dict = {
       ['2023', 'Phantom Liberty и обновление 2.0 меняют игру.']] },
     pl: { tag: '// 05 — PHANTOM LIBERTY', title: 'Шпионский триллер в Dogtown', text: 'Самолёт президента США сбит над Night City. Тебе предстоит стать агентом и спасти нацию — ценой собственной свободы. Новый район Dogtown, Идрис Эльба в роли Соломона Рида и десятки часов нового контента.', cta: 'Узнать больше' },
     buy: { tag: '// 06 — ПОДКЛЮЧИСЬ', title: 'Доступно на всех платформах', btn: 'Играть сейчас' },
-    foot: 'Фан-проект. Cyberpunk 2077 © CD PROJEKT RED. Фото: Wikimedia Commons (CC).'
+    foot: 'Фан-проект. Cyberpunk 2077 © CD PROJEKT RED. Фото: Wikimedia Commons (CC).',
+    credit: 'Дизайн и разработка'
   },
   en: {
     nav: ['Lore', 'Districts', 'Characters', 'Timeline', 'Phantom Liberty', 'Play'],
@@ -68,7 +69,8 @@ const dict = {
       ['2023', 'Phantom Liberty and Update 2.0 change the game.']] },
     pl: { tag: '// 05 — PHANTOM LIBERTY', title: 'A spy thriller in Dogtown', text: 'The US president\'s plane is shot down over Night City. Become an agent and save the nation — at the price of your own freedom. New district Dogtown, Idris Elba as Solomon Reed and dozens of hours of content.', cta: 'Learn more' },
     buy: { tag: '// 06 — JACK IN', title: 'Available on all platforms', btn: 'Play now' },
-    foot: 'Fan project. Cyberpunk 2077 © CD PROJEKT RED. Photos: Wikimedia Commons (CC).'
+    foot: 'Fan project. Cyberpunk 2077 © CD PROJEKT RED. Photos: Wikimedia Commons (CC).',
+    credit: 'Design & development'
   },
   uz: {
     nav: ['Lor', 'Tumanlar', 'Qahramonlar', 'Xronologiya', 'Phantom Liberty', 'O\'ynash'],
@@ -98,7 +100,8 @@ const dict = {
       ['2023', 'Phantom Liberty va 2.0 yangilanishi o\'yinni o\'zgartirdi.']] },
     pl: { tag: '// 05 — PHANTOM LIBERTY', title: 'Dogtown dagi josuslik trilleri', text: 'AQSH prezidentining samolyoti Night City ustida urib tushirildi. Agent bo\'l va xalqni qutqar — o\'z erkinliging evaziga. Yangi Dogtown tumani, Solomon Rid rolida Idris Elba va o\'nlab soat yangi kontent.', cta: 'Batafsil' },
     buy: { tag: '// 06 — ULAN', title: 'Barcha platformalarda mavjud', btn: 'Hozir o\'ynash' },
-    foot: 'Muxlis loyiha. Cyberpunk 2077 © CD PROJEKT RED. Rasmlar: Wikimedia Commons (CC).'
+    foot: 'Muxlis loyiha. Cyberpunk 2077 © CD PROJEKT RED. Rasmlar: Wikimedia Commons (CC).',
+    credit: 'Dizayn va dasturlash'
   }
 }
 
