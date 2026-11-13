@@ -264,6 +264,7 @@ onBeforeUnmount(() => {
     <div class="wrap foot__in">
       <a href="#" class="logo" @click.prevent="go('top')"><span>CYBER</span>PUNK<em>2077</em></a>
       <p class="mono">{{ t.foot }}</p>
+      <p class="made mono">Made by <b>Shakhriyor</b></p>
     </div>
   </footer>
 

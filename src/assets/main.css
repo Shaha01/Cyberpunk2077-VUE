@@ -201,3 +201,4 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .logo{font-size:15px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+.foot .made{font-size:14px;color:var(--mut)}.foot .made b{color:var(--y);font-weight:400;text-shadow:0 0 10px rgba(252,238,10,.5)}
